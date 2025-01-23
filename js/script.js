@@ -57,7 +57,7 @@ toggleClipBoard.addEventListener('click', () => {
 
 toggleLocation.addEventListener('click', () => {
     navigator.geolocation.getCurrentPosition((position) => {
-        alert(`Your Location!\nLatitude: ${position.coords.latitude},\nLongitude: ${position.coords.longitude},\nAccuracy: ${position.coords.accuracy} meters!`);
+        alert(`Your Home Location!\nLatitude: ${position.coords.latitude},\nLongitude: ${position.coords.longitude},\nAccuracy: ${position.coords.accuracy} meters!`);
     }, (error) => {
         alert(`There was an error.\nERROR ${error.code}: ${error.message}`);
     }, {
