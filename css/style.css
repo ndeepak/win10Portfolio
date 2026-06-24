@@ -17,9 +17,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #072540;
+    background-color: #1e3a5f;
     min-height: 100vh;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI Variable Display', 'Segoe UI', system-ui, sans-serif;
 	-webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -429,7 +429,7 @@ a#grip {
 
 .desktopElementsDesign > .wb-body {
     padding: 0 16px 0 16px;
-    background-color: #072540;
+    background-color: #1e3a5f;
     color: white;
 }
 
@@ -438,12 +438,12 @@ a#grip {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    background-color: #072540;
+    background-color: #1e3a5f;
     color: white;
 }
 
 .screenShareDesign > .wb-body {
     padding: 18px;
-    background-color: #072540;
+    background-color: #1e3a5f;
     color: white;
 }
