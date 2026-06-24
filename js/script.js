@@ -75,14 +75,14 @@ screenCapture.addEventListener('click', async () => {
     screenCapture.style = "pointer-events: none;";
     const screenCaptureBox = new WinBox("💻 | Screen Capture |", {
         class: ["no-full", "screenShareDesign"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         x: "center",
         y: "center",
         width: "70%",
         height: "90%",
         mount: screenShareSection,
-        bottom:48,
+        bottom:60,
         onfocus: () => {
             toggleScreenShare.onclick = async () => {
                 if(toggleScreenShare.innerText === "Start Capturing") {
@@ -181,14 +181,14 @@ powerOff.addEventListener('click', () => {
     powerOff.style = "pointer-events: none;";
     const powerOffBox = new WinBox("🤖 | System Alert |", {
         class: ["modal", "powerOffDesign"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         x: "center",
         y: "center",
         html: "The system will restart in&nbsp;<span id='restartDuration'></span>&nbsp;seconds.",
         width: "80%",
         height: "20%",
-        bottom:48,
+        bottom:60,
         onfocus: () => {
             setTimeout(() => {
                 location.reload();
@@ -210,14 +210,14 @@ textEditor.addEventListener('click', () => {
     textEditor.style = "pointer-events: none; border-bottom: 2px solid rgba(255, 255, 255, 0.5);";
     const textEditorWindow = new WinBox("📰 ndeepak", {
         class: ["no-full", "modern"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         url: "https://github1s.com/ndeepak/win10Portfolio/blob/README.md",
         x: Math.floor(Math.random() * 10)+"%",
         y: Math.floor(Math.random() * 10)+"%",
         width: "80%",
         height: "80%",
-        bottom:48,
+        bottom:60,
         onclose: () => {
             textEditor.style = "pointer-events: initial";
         }
@@ -228,14 +228,14 @@ terminal.addEventListener('click', () => {
     terminal.style = "pointer-events: none; border-bottom: 2px solid rgba(255, 255, 255, 0.5);";
     const terminalWindow = new WinBox("⋤⋥ ndeepSHELL", {
         class: ["no-full", "modern"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         url: "shell.html",
         x: "center",
         y: "center",
         width: "70%",
         height: "70%",
-        bottom:48,
+        bottom:60,
         onclose: () => {
             terminal.style = "pointer-events: initial";
         }
@@ -251,14 +251,14 @@ about.addEventListener('click', () => {
     about.style = "pointer-events: none;";
     const aboutWindow = new WinBox("😊 About Me", {
         class: ["no-full", "modern", "desktopElementsDesign"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         mount: aboutSection,
         x: Math.floor(Math.random() * 30)+"%",
         y: Math.floor(Math.random() * 30)+"%",
         width: "60%",
         height: "60%",
-        bottom:48,
+        bottom:60,
         onclose: () => {
             about.style = "pointer-events: initial";
         },
@@ -269,14 +269,14 @@ skills.addEventListener('click', () => {
     skills.style = "pointer-events: none;";
     const skillsWindow = new WinBox("👻 My Skills", {
         class: ["no-full", "modern", "desktopElementsDesign"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         mount: skillsSection,
         x: Math.floor(Math.random() * 30)+"%",
         y: Math.floor(Math.random() * 30)+"%",
         width: "60%",
         height: "60%",
-        bottom:48,
+        bottom:60,
         onclose: () => {
             skills.style = "pointer-events: initial";
         },
@@ -287,14 +287,14 @@ projects.addEventListener('click', () => {
     projects.style = "pointer-events: none;";
     const projectsWindow = new WinBox("🛠 My Projects", {
         class: ["no-full", "modern", "desktopElementsDesign"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         mount: projectsSection,
         x: Math.floor(Math.random() * 30)+"%",
         y: Math.floor(Math.random() * 30)+"%",
         width: "60%",
         height: "50%",
-        bottom:48,
+        bottom:60,
         onclose: () => {
             projects.style = "pointer-events: initial";
         },
@@ -305,14 +305,14 @@ contact.addEventListener('click', () => {
     contact.style = "pointer-events: none;";
     const contactWindow = new WinBox("📱 Contact Me", {
         class: ["no-full", "modern", "desktopElementsDesign"],
-        background: "#9e1616",
-        border: 2,
+        background: "#0078d4",
+        border: 1,
         mount: contactSection,
         x: Math.floor(Math.random() * 30)+"%",
         y: Math.floor(Math.random() * 30)+"%",
         width: "60%",
         height: "60%",
-        bottom:48,
+        bottom:60,
         onclose: () => {
             contact.style = "pointer-events: initial";
         },
